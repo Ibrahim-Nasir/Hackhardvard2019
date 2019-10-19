@@ -56,7 +56,7 @@ $(window).on("keydown", function(e) {
 });
 
 var Fake = [
-  "Hi there, I'm Fabio and you?",
+  "Hi there, I'm Tony and you?",
   "Nice to meet you",
   "How are you?",
   "Not too bad, thanks",
@@ -78,14 +78,14 @@ function fakeMessage() {
     return false;
   }
   $(
-    '<div class="message loading new"><figure class="avatar"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure><span></span></div>'
+    '<div class="message loading new"><figure class="avatar"><img src="https://i.pinimg.com/originals/64/32/6c/64326c1b58b511c72c4c686263c06757.jpg" /></figure><span></span></div>'
   ).appendTo($(".mCSB_container"));
   updateScrollbar();
 
   setTimeout(function() {
     $(".message.loading").remove();
     $(
-      '<div class="message new"><figure class="avatar"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure>' +
+      '<div class="message new"><figure class="avatar"><img src="https://i.pinimg.com/originals/64/32/6c/64326c1b58b511c72c4c686263c06757.jpg" /></figure>' +
         Fake[i] +
         "</div>"
     )
