@@ -96,3 +96,15 @@ function fakeMessage() {
     i++;
   }, 1000 + Math.random() * 20 * 100);
 }
+
+$(function(){
+    var $btn      = $('.btn'),
+        $menuBtn  = $('.menu-btn'),
+        $icon     = $('.icon');
+  
+    $menuBtn.on('click', function(){
+      $(this).toggleClass('active');
+      $icon.toggleClass('show');
+      $btn.toggleClass('active');
+    });
+  });
