@@ -1,9 +1,10 @@
-#menu-demo {
+/* #menu-demo {
     position: absolute;
     top: 20%;
     left: 20%;
     font-size: 19px;
-  }
+    /* padding: 100px; */
+  } */
   
   #menu-demo .radial__item {
         background: #2a7ae5;
@@ -17,6 +18,8 @@
     color: white;
     padding: 50px;
     border-radius: 50%;
+    /* width: 500px;
+    height: 500px; */
   }
   
   #menu-demo .radial__button { cursor: pointer; }
@@ -42,4 +45,8 @@
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;
+  }
+
+  .group-image {
+      content: url('../assets/181-1814767_person-svg-png-icon-free-download-profile-icon');
   }

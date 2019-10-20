@@ -1,0 +1,92 @@
+#circle-center{
+    background-color:#2a7ae5; /* Green */
+    color: white;
+    /* padding: 50px; */
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    width: 300px;
+    height: 300px;
+    background-image: url(/assets/181-1814767_person-svg-png-icon-free-download-profile-icon.png);
+    
+}
+
+#circle-item1{
+    background: #cf2ae5;
+    color: white;
+    /* padding: 50px; */
+    border-radius: 50%;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#circle-item2{
+    background: #cf2ae5;
+    color: white;
+    /* padding: 50px; */
+    border-radius: 50%;
+    top: 40%;
+    left: 70%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+
+}
+
+#circle-item3{
+    background: #cf2ae5;
+    color: white;
+    /* padding: 50px; */
+    border-radius: 50%;
+    top: 15%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#circle-item4{
+    background: #cf2ae5;
+    color: white;
+    /* padding: 50px; */
+    border-radius: 50%;
+    top: 70%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.button {
+    color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color:#1a4d8f; /* Green */
+    color: white;
+  }
+
+  .button:active {
+    background-color:#1a4d8f; /* Green */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

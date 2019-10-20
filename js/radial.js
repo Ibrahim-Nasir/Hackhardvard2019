@@ -46,6 +46,8 @@
 		element.style.position = 'absolute';
 		element.style.top = Math.round(item._top) + 'px';
 		element.style.left = Math.round(item._left) + 'px';
+		element.style.top = 50%'';
+		// element.style.left = ;
 		element.style.zIndex = item.index;
 		
 		return element;
